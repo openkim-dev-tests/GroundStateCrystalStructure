@@ -1,0 +1,9 @@
+@< path("{{TEST_DRIVER_NAME}}") >@ {# FILENAME = pipeline.stdin.tpl #}
+@< MODELNAME >@
+{{stoichiometric_species}}
+{{prototype_labels}}
+{{parameter_names}}
+{{parameter_values_angstrom}}
+{{temperature_K}}
+{{cell_cauchy_stress_eV_angstrom3}}
+{{crystal_genome_test_args}}

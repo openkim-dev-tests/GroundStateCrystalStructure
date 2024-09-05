@@ -1,0 +1,15 @@
+{
+  "title" "Reference elemental ground state for {{stoichiometric_species|join("")}} v000"
+  "description" "Performs an energy optimization for all prototypes containing only {{stoichiometric_species|join("")}} and records the lowest energy structure along with its energy." 
+  "extended-id" "{{TEST_DRIVER_NAME.split('_')[:-4]|join('_')}}_{{stoichiometric_species|join("")}}__TE_{{kimnum}}_000"
+  "test-driver" "{{TEST_DRIVER_NAME}}"
+  "species" ["{{stoichiometric_species|join('" "')}}"]
+  "contributor-id" "2bc2738c-f70a-4eb1-b180-67562ea7e4d6"
+  "maintainer-id" "2bc2738c-f70a-4eb1-b180-67562ea7e4d6"
+  "executables" ["runner"]
+  "domain" "openkim.org"
+  "matching-models" ["standard-models"]
+  "disclaimer" "Computer generated"
+  "kim-api-version" "2.3"
+  "publication-year" "2024"
+}{# FILENAME = kimspec.edn #}
