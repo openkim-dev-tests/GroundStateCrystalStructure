@@ -1,7 +1,11 @@
 from kim_tools import SingleCrystalTestDriver
 from ase import Atoms
 from typing import Any, Optional, List, Union, Dict, IO
-from reference_map import reference_map
+# try importing as ppart of module otherwise script like
+try:
+    from .reference_map import reference_map
+except ImportError:
+    from reference_map import reference_map
 import kimvv
 class TestDriver(SingleCrystalTestDriver):
     # keep same signature so __call__ works
