@@ -1,7 +1,7 @@
 Reference Elemental Ground State Test
 =====================================
 
-This test finds the lowest energy structure for each single-element species supported by the relevant model.
-In addition to simplifying the queries needed to find the lowest energy structures predicted by a model, the results from this test may also be useful when a reference structure is required in some downstream task, such as vacancy tests (used as a reservoir).
-This test driver works by taking all supported single-element prototypes for a given species, iterating through each of them, relaxing the structures according to the methodology of the `EquilibriumCrystalStructure <https://openkim.org/id/EquilibriumCrystalStructure__TD_457028483760_002>`_ test driver, and recording the lowest energy structure.
-This test driver was created so that other tests which may depend on reference structures can use tests derived from this driver as a dependency, rather than resorting to depending on several tests (one for each single) element prototype-ehich may become problematic due to failed runs, etc. 
+This test returns reference ground state structures and energies for each element.
+The results from this test are useful when a reference structure is required in some downstream test, such as vacancy tests (used as a reservoir).
+This test driver works by querying results from the `EquilibriumCrystalStructure <https://openkim.org/id/EquilibriumCrystalStructure__TD_457028483760_002>`_ test driver using element specific reference structures following `CHIPS-FF <https://github.com/usnistgov/chipsff/blob/main/chipsff/chemical_potentials.json>`_.
+Although the reference prototypes are independent of model, the resulting structure and energy of the prototypes are model-dependent.
