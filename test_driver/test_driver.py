@@ -88,17 +88,25 @@ class TestDriver(SingleCrystalTestDriver):
         Compute EquilibriumCrystalStructure and format binding-energy-crystal result
         '''
         print ("Resolving dependencies...")
-        atoms = Atoms.fromdict(reference_map[self.reference_element])
-        ecs_test = kimvv.EquilibriumCrystalStructure(self._calc)
-        ecs_test(atoms)
-        kwargs['reference_info'] = {self.reference_element: [ecs_test.property_instances[1]]}
+        energy = 0
+        lowest_res = None
+        refs = reference_map[self.reference_element]
+        for r in refs:
+            ecs_test = kimvv.EquilibriumCrystalStructure(self._calc)
+            ecs_test(r)
+            res = ecs_test.property_instances[1]
+            if res["binding-potential-energy-per-formula"]["source-value"] < energy:
+                energy = res["binding-potential-energy-per-formula"]["source-value"]
+                lowest_res = res
+        kwargs['reference_info'] = {self.reference_element: [res]}
         return kwargs
 
 
 if __name__ == "__main__":
     #test = TestDriver('EAM_Dynamo_ErcolessiAdams_1994_Al__MO_123629422045_005')
-    test = TestDriver('MEAM_LAMMPS_LeeShimBaskes_2003_Al__MO_353977746962_001')
-    test._setup('Al')
+    #test = TestDriver('MEAM_LAMMPS_LeeShimBaskes_2003_Al__MO_353977746962_001')
+    test = TestDriver('Exp6_KongChakrabarty_1973_ArNe__MO_946046425752_002')
+    test._setup('Ne')
     kwargs = test._resolve_dependencies()
     test._calculate(**kwargs)
     test.write_property_instances_to_file()
