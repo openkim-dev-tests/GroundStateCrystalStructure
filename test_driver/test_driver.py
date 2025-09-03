@@ -33,7 +33,6 @@ class TestDriver(SingleCrystalTestDriver):
         """
         if cell_cauchy_stress_eV_angstrom3 is None:
             cell_cauchy_stress_eV_angstrom3 = [0, 0, 0, 0, 0, 0]
-        self.reference_element =  material
 
     def _calculate(self, reference_info, temperature_K=None, cell_cauchy_stress_eV_angstrom3=None, **kwargs):
         '''
@@ -82,7 +81,7 @@ class TestDriver(SingleCrystalTestDriver):
                 result["binding-potential-energy-per-formula"]["source-unit"]
                 )
 
-    def _resolve_dependencies(self, **kwargs):
+    def _resolve_dependencies(self, material, **kwargs):
         '''
         Take reference element and map to reference structure
         Compute EquilibriumCrystalStructure and format binding-energy-crystal result
@@ -90,7 +89,7 @@ class TestDriver(SingleCrystalTestDriver):
         print ("Resolving dependencies...")
         energy = 0
         lowest_res = None
-        refs = reference_map[self.reference_element]
+        refs = reference_map[material]
         for r in refs:
             ecs_test = kimvv.EquilibriumCrystalStructure(self._calc)
             ecs_test(r)
@@ -98,8 +97,8 @@ class TestDriver(SingleCrystalTestDriver):
             if res["binding-potential-energy-per-formula"]["source-value"] < energy:
                 energy = res["binding-potential-energy-per-formula"]["source-value"]
                 lowest_res = res
-        kwargs['reference_info'] = {self.reference_element: [res]}
-        return kwargs
+        kwargs['reference_info'] = {material: [res]}
+        return material, kwargs
 
 
 if __name__ == "__main__":
