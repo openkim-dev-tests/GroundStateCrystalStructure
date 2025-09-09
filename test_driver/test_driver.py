@@ -75,11 +75,6 @@ class TestDriver(SingleCrystalTestDriver):
                 result["binding-potential-energy-per-atom"]["source-value"],
                 result["binding-potential-energy-per-atom"]["source-unit"]
                 )
-        self._add_key_to_current_property_instance(
-                "binding-potential-energy-per-formula",
-                result["binding-potential-energy-per-formula"]["source-value"],
-                result["binding-potential-energy-per-formula"]["source-unit"]
-                )
 
     def _resolve_dependencies(self, material, **kwargs):
         '''
@@ -94,8 +89,8 @@ class TestDriver(SingleCrystalTestDriver):
             ecs_test = kimvv.EquilibriumCrystalStructure(self._calc)
             ecs_test(r)
             res = ecs_test.property_instances[1]
-            if res["binding-potential-energy-per-formula"]["source-value"] < energy:
-                energy = res["binding-potential-energy-per-formula"]["source-value"]
+            if res["binding-potential-energy-per-atom"]["source-value"] < energy:
+                energy = res["binding-potential-energy-per-atom"]["source-value"]
                 lowest_res = res
         kwargs['reference_info'] = {material: [res]}
         return material, kwargs
