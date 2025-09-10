@@ -94,13 +94,3 @@ class TestDriver(SingleCrystalTestDriver):
                 lowest_res = res
         kwargs['reference_info'] = {material: [res]}
         return material, kwargs
-
-
-if __name__ == "__main__":
-    #test = TestDriver('EAM_Dynamo_ErcolessiAdams_1994_Al__MO_123629422045_005')
-    #test = TestDriver('MEAM_LAMMPS_LeeShimBaskes_2003_Al__MO_353977746962_001')
-    test = TestDriver('Exp6_KongChakrabarty_1973_ArNe__MO_946046425752_002')
-    test._setup('Ne')
-    kwargs = test._resolve_dependencies()
-    test._calculate(**kwargs)
-    test.write_property_instances_to_file()
