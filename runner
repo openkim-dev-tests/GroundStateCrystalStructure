@@ -51,7 +51,6 @@ reference_query_result = literal_eval(
 # TODO: grab element from query result
 element = list(reference_query_result.keys())[0] 
 runtime_args['reference_info'] = reference_query_result
-print (runtime_args)
 ###
 test(
     element,
