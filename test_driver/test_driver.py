@@ -85,8 +85,8 @@ class TestDriver(SingleCrystalTestDriver):
         energy = 0
         lowest_res = None
         if isinstance(material,Atoms):
-            assert (len(set(atoms.get_chemical_symbols())) == 1)
-            material = atoms.get_chemical_symbols()[0]
+            assert (len(set(material.get_chemical_symbols())) == 1)
+            material = material.get_chemical_symbols()[0]
         refs = reference_map[material]
         for r in refs:
             ecs_test = kimvv.EquilibriumCrystalStructure(self._calc)
