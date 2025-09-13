@@ -6,7 +6,6 @@ try:
     from .reference_map import reference_map
 except ImportError:
     from reference_map import reference_map
-import kimvv
 class TestDriver(SingleCrystalTestDriver):
     # keep same signature so __call__ works
     def _setup(
@@ -81,6 +80,7 @@ class TestDriver(SingleCrystalTestDriver):
         Take reference element and map to reference structure
         Compute EquilibriumCrystalStructure and format binding-energy-crystal result
         '''
+        import kimvv
         print ("Resolving dependencies...")
         energy = 0
         lowest_res = None
