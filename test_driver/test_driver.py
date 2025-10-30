@@ -66,8 +66,8 @@ class TestDriver(SingleCrystalTestDriver):
             "source-unit": "eV/angstrom^3",
         }
         self._add_property_instance_and_common_crystal_genome_keys(
-                "reference-elemental-energy",
-                write_stress=True, write_temp=True
+                "elemental-crystal-ground-state",
+                write_stress=False, write_temp=False
                 )
         self._add_key_to_current_property_instance(
                 "binding-potential-energy-per-atom",
