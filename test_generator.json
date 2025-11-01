@@ -1,84 +1,84 @@
-{"stoichiometric_species": ["Eu"], "crystal_genome_test_args": {}, "version": "000"}
-{"stoichiometric_species": ["Ru"], "crystal_genome_test_args": {}, "version": "000"}
-{"stoichiometric_species": ["Re"], "crystal_genome_test_args": {}, "version": "000"}
-{"stoichiometric_species": ["Rb"], "crystal_genome_test_args": {}, "version": "000"}
-{"stoichiometric_species": ["Rh"], "crystal_genome_test_args": {}, "version": "000"}
-{"stoichiometric_species": ["Be"], "crystal_genome_test_args": {}, "version": "000"}
-{"stoichiometric_species": ["Ba"], "crystal_genome_test_args": {}, "version": "000"}
-{"stoichiometric_species": ["Bi"], "crystal_genome_test_args": {}, "version": "000"}
-{"stoichiometric_species": ["Br"], "crystal_genome_test_args": {}, "version": "000"}
-{"stoichiometric_species": ["H"], "crystal_genome_test_args": {}, "version": "000"}
-{"stoichiometric_species": ["P"], "crystal_genome_test_args": {}, "version": "000"}
-{"stoichiometric_species": ["Os"], "crystal_genome_test_args": {}, "version": "000"}
-{"stoichiometric_species": ["Ge"], "crystal_genome_test_args": {}, "version": "000"}
-{"stoichiometric_species": ["Ga"], "crystal_genome_test_args": {}, "version": "000"}
-{"stoichiometric_species": ["Pr"], "crystal_genome_test_args": {}, "version": "000"}
-{"stoichiometric_species": ["Pt"], "crystal_genome_test_args": {}, "version": "000"}
-{"stoichiometric_species": ["Pu"], "crystal_genome_test_args": {}, "version": "000"}
-{"stoichiometric_species": ["C"], "crystal_genome_test_args": {}, "version": "000"}
-{"stoichiometric_species": ["Pb"], "crystal_genome_test_args": {}, "version": "000"}
-{"stoichiometric_species": ["Pa"], "crystal_genome_test_args": {}, "version": "000"}
-{"stoichiometric_species": ["Pd"], "crystal_genome_test_args": {}, "version": "000"}
-{"stoichiometric_species": ["Cd"], "crystal_genome_test_args": {}, "version": "000"}
-{"stoichiometric_species": ["Pm"], "crystal_genome_test_args": {}, "version": "000"}
-{"stoichiometric_species": ["Ho"], "crystal_genome_test_args": {}, "version": "000"}
-{"stoichiometric_species": ["Hf"], "crystal_genome_test_args": {}, "version": "000"}
-{"stoichiometric_species": ["Hg"], "crystal_genome_test_args": {}, "version": "000"}
-{"stoichiometric_species": ["He"], "crystal_genome_test_args": {}, "version": "000"}
-{"stoichiometric_species": ["Mg"], "crystal_genome_test_args": {}, "version": "000"}
-{"stoichiometric_species": ["K"], "crystal_genome_test_args": {}, "version": "000"}
-{"stoichiometric_species": ["Mn"], "crystal_genome_test_args": {}, "version": "000"}
-{"stoichiometric_species": ["O"], "crystal_genome_test_args": {}, "version": "000"}
-{"stoichiometric_species": ["S"], "crystal_genome_test_args": {}, "version": "000"}
-{"stoichiometric_species": ["W"], "crystal_genome_test_args": {}, "version": "000"}
-{"stoichiometric_species": ["Zn"], "crystal_genome_test_args": {}, "version": "000"}
-{"stoichiometric_species": ["Zr"], "crystal_genome_test_args": {}, "version": "000"}
-{"stoichiometric_species": ["Er"], "crystal_genome_test_args": {}, "version": "000"}
-{"stoichiometric_species": ["Ni"], "crystal_genome_test_args": {}, "version": "000"}
-{"stoichiometric_species": ["Na"], "crystal_genome_test_args": {}, "version": "000"}
-{"stoichiometric_species": ["Nb"], "crystal_genome_test_args": {}, "version": "000"}
-{"stoichiometric_species": ["Nd"], "crystal_genome_test_args": {}, "version": "000"}
-{"stoichiometric_species": ["Ne"], "crystal_genome_test_args": {}, "version": "000"}
-{"stoichiometric_species": ["Fe"], "crystal_genome_test_args": {}, "version": "000"}
-{"stoichiometric_species": ["B"], "crystal_genome_test_args": {}, "version": "000"}
-{"stoichiometric_species": ["F"], "crystal_genome_test_args": {}, "version": "000"}
-{"stoichiometric_species": ["N"], "crystal_genome_test_args": {}, "version": "000"}
-{"stoichiometric_species": ["Kr"], "crystal_genome_test_args": {}, "version": "000"}
-{"stoichiometric_species": ["Si"], "crystal_genome_test_args": {}, "version": "000"}
-{"stoichiometric_species": ["Sn"], "crystal_genome_test_args": {}, "version": "000"}
-{"stoichiometric_species": ["Sm"], "crystal_genome_test_args": {}, "version": "000"}
-{"stoichiometric_species": ["V"], "crystal_genome_test_args": {}, "version": "000"}
-{"stoichiometric_species": ["Sc"], "crystal_genome_test_args": {}, "version": "000"}
-{"stoichiometric_species": ["Sb"], "crystal_genome_test_args": {}, "version": "000"}
-{"stoichiometric_species": ["Se"], "crystal_genome_test_args": {}, "version": "000"}
-{"stoichiometric_species": ["Co"], "crystal_genome_test_args": {}, "version": "000"}
-{"stoichiometric_species": ["Cl"], "crystal_genome_test_args": {}, "version": "000"}
-{"stoichiometric_species": ["Ca"], "crystal_genome_test_args": {}, "version": "000"}
-{"stoichiometric_species": ["Ce"], "crystal_genome_test_args": {}, "version": "000"}
-{"stoichiometric_species": ["Xe"], "crystal_genome_test_args": {}, "version": "000"}
-{"stoichiometric_species": ["Tm"], "crystal_genome_test_args": {}, "version": "000"}
-{"stoichiometric_species": ["Cr"], "crystal_genome_test_args": {}, "version": "000"}
-{"stoichiometric_species": ["Cu"], "crystal_genome_test_args": {}, "version": "000"}
-{"stoichiometric_species": ["La"], "crystal_genome_test_args": {}, "version": "000"}
-{"stoichiometric_species": ["Li"], "crystal_genome_test_args": {}, "version": "000"}
-{"stoichiometric_species": ["Tl"], "crystal_genome_test_args": {}, "version": "000"}
-{"stoichiometric_species": ["Lu"], "crystal_genome_test_args": {}, "version": "000"}
-{"stoichiometric_species": ["Ti"], "crystal_genome_test_args": {}, "version": "000"}
-{"stoichiometric_species": ["Te"], "crystal_genome_test_args": {}, "version": "000"}
-{"stoichiometric_species": ["Tb"], "crystal_genome_test_args": {}, "version": "000"}
-{"stoichiometric_species": ["Tc"], "crystal_genome_test_args": {}, "version": "000"}
-{"stoichiometric_species": ["Ta"], "crystal_genome_test_args": {}, "version": "000"}
-{"stoichiometric_species": ["Yb"], "crystal_genome_test_args": {}, "version": "000"}
-{"stoichiometric_species": ["Dy"], "crystal_genome_test_args": {}, "version": "000"}
-{"stoichiometric_species": ["I"], "crystal_genome_test_args": {}, "version": "000"}
-{"stoichiometric_species": ["U"], "crystal_genome_test_args": {}, "version": "000"}
-{"stoichiometric_species": ["Y"], "crystal_genome_test_args": {}, "version": "000"}
-{"stoichiometric_species": ["Ac"], "crystal_genome_test_args": {}, "version": "000"}
-{"stoichiometric_species": ["Ag"], "crystal_genome_test_args": {}, "version": "000"}
-{"stoichiometric_species": ["Ir"], "crystal_genome_test_args": {}, "version": "000"}
-{"stoichiometric_species": ["Al"], "crystal_genome_test_args": {}, "version": "000"}
-{"stoichiometric_species": ["As"], "crystal_genome_test_args": {}, "version": "000"}
-{"stoichiometric_species": ["Ar"], "crystal_genome_test_args": {}, "version": "000"}
-{"stoichiometric_species": ["Au"], "crystal_genome_test_args": {}, "version": "000"}
-{"stoichiometric_species": ["In"], "crystal_genome_test_args": {}, "version": "000"}
-{"stoichiometric_species": ["Mo"], "crystal_genome_test_args": {}, "version": "000"}
+{"stoichiometric_species": ["Eu"], "crystal_genome_test_args": {}, "version": "000", "kimnum": "157612644195"}
+{"stoichiometric_species": ["Ru"], "crystal_genome_test_args": {}, "version": "000", "kimnum": "682293586592"}
+{"stoichiometric_species": ["Re"], "crystal_genome_test_args": {}, "version": "000", "kimnum": "183707038676"}
+{"stoichiometric_species": ["Rb"], "crystal_genome_test_args": {}, "version": "000", "kimnum": "830033162267"}
+{"stoichiometric_species": ["Rh"], "crystal_genome_test_args": {}, "version": "000", "kimnum": "479859321333"}
+{"stoichiometric_species": ["Be"], "crystal_genome_test_args": {}, "version": "000", "kimnum": "904203484224"}
+{"stoichiometric_species": ["Ba"], "crystal_genome_test_args": {}, "version": "000", "kimnum": "610330256201"}
+{"stoichiometric_species": ["Bi"], "crystal_genome_test_args": {}, "version": "000", "kimnum": "544873408968"}
+{"stoichiometric_species": ["Br"], "crystal_genome_test_args": {}, "version": "000", "kimnum": "767437213390"}
+{"stoichiometric_species": ["H"], "crystal_genome_test_args": {}, "version": "000", "kimnum": "531561122797"}
+{"stoichiometric_species": ["P"], "crystal_genome_test_args": {}, "version": "000", "kimnum": "474382147505"}
+{"stoichiometric_species": ["Os"], "crystal_genome_test_args": {}, "version": "000", "kimnum": "608348551508"}
+{"stoichiometric_species": ["Ge"], "crystal_genome_test_args": {}, "version": "000", "kimnum": "601382087414"}
+{"stoichiometric_species": ["Ga"], "crystal_genome_test_args": {}, "version": "000", "kimnum": "358956205970"}
+{"stoichiometric_species": ["Pr"], "crystal_genome_test_args": {}, "version": "000", "kimnum": "728224327360"}
+{"stoichiometric_species": ["Pt"], "crystal_genome_test_args": {}, "version": "000", "kimnum": "013224771855"}
+{"stoichiometric_species": ["Pu"], "crystal_genome_test_args": {}, "version": "000", "kimnum": "852722351477"}
+{"stoichiometric_species": ["C"], "crystal_genome_test_args": {}, "version": "000", "kimnum": "662958724807"}
+{"stoichiometric_species": ["Pb"], "crystal_genome_test_args": {}, "version": "000", "kimnum": "633310513372"}
+{"stoichiometric_species": ["Pa"], "crystal_genome_test_args": {}, "version": "000", "kimnum": "554429315096"}
+{"stoichiometric_species": ["Pd"], "crystal_genome_test_args": {}, "version": "000", "kimnum": "646006688199"}
+{"stoichiometric_species": ["Cd"], "crystal_genome_test_args": {}, "version": "000", "kimnum": "702411366245"}
+{"stoichiometric_species": ["Pm"], "crystal_genome_test_args": {}, "version": "000", "kimnum": "655057279600"}
+{"stoichiometric_species": ["Ho"], "crystal_genome_test_args": {}, "version": "000", "kimnum": "450588719484"}
+{"stoichiometric_species": ["Hf"], "crystal_genome_test_args": {}, "version": "000", "kimnum": "181719811966"}
+{"stoichiometric_species": ["Hg"], "crystal_genome_test_args": {}, "version": "000", "kimnum": "715361190044"}
+{"stoichiometric_species": ["He"], "crystal_genome_test_args": {}, "version": "000", "kimnum": "937986416614"}
+{"stoichiometric_species": ["Mg"], "crystal_genome_test_args": {}, "version": "000", "kimnum": "669135637663"}
+{"stoichiometric_species": ["K"], "crystal_genome_test_args": {}, "version": "000", "kimnum": "427798332837"}
+{"stoichiometric_species": ["Mn"], "crystal_genome_test_args": {}, "version": "000", "kimnum": "126259826494"}
+{"stoichiometric_species": ["O"], "crystal_genome_test_args": {}, "version": "000", "kimnum": "525478663610"}
+{"stoichiometric_species": ["S"], "crystal_genome_test_args": {}, "version": "000", "kimnum": "074127034644"}
+{"stoichiometric_species": ["W"], "crystal_genome_test_args": {}, "version": "000", "kimnum": "520443701845"}
+{"stoichiometric_species": ["Zn"], "crystal_genome_test_args": {}, "version": "000", "kimnum": "115925118486"}
+{"stoichiometric_species": ["Zr"], "crystal_genome_test_args": {}, "version": "000", "kimnum": "221544173837"}
+{"stoichiometric_species": ["Er"], "crystal_genome_test_args": {}, "version": "000", "kimnum": "847254784764"}
+{"stoichiometric_species": ["Ni"], "crystal_genome_test_args": {}, "version": "000", "kimnum": "229805315922"}
+{"stoichiometric_species": ["Na"], "crystal_genome_test_args": {}, "version": "000", "kimnum": "243514483869"}
+{"stoichiometric_species": ["Nb"], "crystal_genome_test_args": {}, "version": "000", "kimnum": "475732993292"}
+{"stoichiometric_species": ["Nd"], "crystal_genome_test_args": {}, "version": "000", "kimnum": "007449529575"}
+{"stoichiometric_species": ["Ne"], "crystal_genome_test_args": {}, "version": "000", "kimnum": "189259043328"}
+{"stoichiometric_species": ["Fe"], "crystal_genome_test_args": {}, "version": "000", "kimnum": "012382879913"}
+{"stoichiometric_species": ["B"], "crystal_genome_test_args": {}, "version": "000", "kimnum": "898603888902"}
+{"stoichiometric_species": ["F"], "crystal_genome_test_args": {}, "version": "000", "kimnum": "073910776285"}
+{"stoichiometric_species": ["N"], "crystal_genome_test_args": {}, "version": "000", "kimnum": "772443147907"}
+{"stoichiometric_species": ["Kr"], "crystal_genome_test_args": {}, "version": "000", "kimnum": "235962413886"}
+{"stoichiometric_species": ["Si"], "crystal_genome_test_args": {}, "version": "000", "kimnum": "879715450324"}
+{"stoichiometric_species": ["Sn"], "crystal_genome_test_args": {}, "version": "000", "kimnum": "226751521012"}
+{"stoichiometric_species": ["Sm"], "crystal_genome_test_args": {}, "version": "000", "kimnum": "578703950492"}
+{"stoichiometric_species": ["V"], "crystal_genome_test_args": {}, "version": "000", "kimnum": "657388727294"}
+{"stoichiometric_species": ["Sc"], "crystal_genome_test_args": {}, "version": "000", "kimnum": "833097205675"}
+{"stoichiometric_species": ["Sb"], "crystal_genome_test_args": {}, "version": "000", "kimnum": "139963494183"}
+{"stoichiometric_species": ["Se"], "crystal_genome_test_args": {}, "version": "000", "kimnum": "575910489439"}
+{"stoichiometric_species": ["Co"], "crystal_genome_test_args": {}, "version": "000", "kimnum": "888459213797"}
+{"stoichiometric_species": ["Cl"], "crystal_genome_test_args": {}, "version": "000", "kimnum": "667949829887"}
+{"stoichiometric_species": ["Ca"], "crystal_genome_test_args": {}, "version": "000", "kimnum": "235574667543"}
+{"stoichiometric_species": ["Ce"], "crystal_genome_test_args": {}, "version": "000", "kimnum": "492315834046"}
+{"stoichiometric_species": ["Xe"], "crystal_genome_test_args": {}, "version": "000", "kimnum": "869743743386"}
+{"stoichiometric_species": ["Tm"], "crystal_genome_test_args": {}, "version": "000", "kimnum": "327234377896"}
+{"stoichiometric_species": ["Cr"], "crystal_genome_test_args": {}, "version": "000", "kimnum": "011551367545"}
+{"stoichiometric_species": ["Cu"], "crystal_genome_test_args": {}, "version": "000", "kimnum": "247598740174"}
+{"stoichiometric_species": ["La"], "crystal_genome_test_args": {}, "version": "000", "kimnum": "913231644532"}
+{"stoichiometric_species": ["Li"], "crystal_genome_test_args": {}, "version": "000", "kimnum": "292234304918"}
+{"stoichiometric_species": ["Tl"], "crystal_genome_test_args": {}, "version": "000", "kimnum": "778585825478"}
+{"stoichiometric_species": ["Lu"], "crystal_genome_test_args": {}, "version": "000", "kimnum": "378636205683"}
+{"stoichiometric_species": ["Ti"], "crystal_genome_test_args": {}, "version": "000", "kimnum": "313382763504"}
+{"stoichiometric_species": ["Te"], "crystal_genome_test_args": {}, "version": "000", "kimnum": "273394406257"}
+{"stoichiometric_species": ["Tb"], "crystal_genome_test_args": {}, "version": "000", "kimnum": "703922047066"}
+{"stoichiometric_species": ["Tc"], "crystal_genome_test_args": {}, "version": "000", "kimnum": "606269206347"}
+{"stoichiometric_species": ["Ta"], "crystal_genome_test_args": {}, "version": "000", "kimnum": "377437793232"}
+{"stoichiometric_species": ["Yb"], "crystal_genome_test_args": {}, "version": "000", "kimnum": "609837716537"}
+{"stoichiometric_species": ["Dy"], "crystal_genome_test_args": {}, "version": "000", "kimnum": "439243295770"}
+{"stoichiometric_species": ["I"], "crystal_genome_test_args": {}, "version": "000", "kimnum": "881260142087"}
+{"stoichiometric_species": ["U"], "crystal_genome_test_args": {}, "version": "000", "kimnum": "789468458446"}
+{"stoichiometric_species": ["Y"], "crystal_genome_test_args": {}, "version": "000", "kimnum": "493225752478"}
+{"stoichiometric_species": ["Ac"], "crystal_genome_test_args": {}, "version": "000", "kimnum": "167171672898"}
+{"stoichiometric_species": ["Ag"], "crystal_genome_test_args": {}, "version": "000", "kimnum": "232977974999"}
+{"stoichiometric_species": ["Ir"], "crystal_genome_test_args": {}, "version": "000", "kimnum": "117191650307"}
+{"stoichiometric_species": ["Al"], "crystal_genome_test_args": {}, "version": "000", "kimnum": "011852404080"}
+{"stoichiometric_species": ["As"], "crystal_genome_test_args": {}, "version": "000", "kimnum": "407438340613"}
+{"stoichiometric_species": ["Ar"], "crystal_genome_test_args": {}, "version": "000", "kimnum": "009139470091"}
+{"stoichiometric_species": ["Au"], "crystal_genome_test_args": {}, "version": "000", "kimnum": "156325352285"}
+{"stoichiometric_species": ["In"], "crystal_genome_test_args": {}, "version": "000", "kimnum": "247544574679"}
+{"stoichiometric_species": ["Mo"], "crystal_genome_test_args": {}, "version": "000", "kimnum": "237258011319"}
